@@ -6,9 +6,7 @@ This project will be used to test front-end engineering candidates at SIBI. The 
 
 1. The candidate will need a NASA open api key. You can get one from here - [https://api.nasa.gov/](https://api.nasa.gov/)
 
-2. The candidate and interviewer will need VSCode with LiveShare to do screen sharing.
-
-3. The candidate should have NodeJS installed on their machine.
+2. The candidate will be using [Zoom](https://zoom.us)
 
 ## Interview Task 1 - Add Show / Hide Mission Manifest on Rover Detail Page
 

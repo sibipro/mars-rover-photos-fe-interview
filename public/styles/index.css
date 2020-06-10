@@ -1,3 +1,8 @@
-/* @tailwind base;
+@tailwind base;
+
+/** 
+add font styles and general header styles 
+**/
+
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
