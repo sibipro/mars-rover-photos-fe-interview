@@ -3,12 +3,12 @@ import Link from "next/link";
 
 const RoverCard = ({ name }) => {
   return (
-    <Link href={`/rovers/[${name}]`} as={`/rovers/${name}`}>
-      <a>
-        <img src={`/images/${name}.jpg`}></img>
-        <span>Curiosity</span>
-      </a>
-    </Link>
+    <div>
+      <img src={`/images/${name}.jpg`}></img>
+      <Link href={`/rovers/[${name}]`} as={`/rovers/${name}`}>
+        <a className="hover:underline">{name}</a>
+      </Link>
+    </div>
   );
 };
 
