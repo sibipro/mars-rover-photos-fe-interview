@@ -3,6 +3,18 @@
 /** 
 add font styles and general header styles 
 **/
+html {
+  height: 100%;
+}
+
+body,
+div#__next {
+  height: 100%;
+}
+
+/* h1 {
+  @apply font-bold text-3xl;
+} */
 
 @tailwind components;
 @tailwind utilities;
