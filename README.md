@@ -52,3 +52,29 @@ Here is a sample response from the manifest request
     }
 }
 ```
+
+## Running the project
+
+1. Clone or Fork the repository
+
+```
+git clone git@github.com:sibipro/mars-rover-photos-fe-interview.git
+```
+
+2. Go into the project root folder and install the dependencies
+
+```
+yarn
+```
+
+3. Run the project
+
+```
+yarn dev
+```
+
+## Running tests
+
+```
+yarn test
+```
