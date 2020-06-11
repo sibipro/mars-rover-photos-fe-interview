@@ -31,7 +31,7 @@ const RoverCard = ({ name }) => {
             alt={`${name} rover`}
           ></img>
           <div className="mt-6 mx-6 mb-6">
-            <div className="text-3xl mx-auto justify-center w-full uppercase text-center mx-auto text-gray-800 w-full">
+            <div className="text-3xl mx-auto mb-2 justify-center w-full uppercase text-center mx-auto text-gray-800 w-full">
               {name}
             </div>
             <p className="text-justify text-xl text-gray-600 mb-4">
