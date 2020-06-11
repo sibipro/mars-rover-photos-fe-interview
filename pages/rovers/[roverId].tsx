@@ -20,7 +20,7 @@ const RoverDetail = () => {
           {roverId} Rover
         </h1>
         <button
-          className="hover:bg-indigo-100 hover:text-indigo-800 hover:font-bold hover:border-2 hover:border-indigo-800 hover:border-solid mr-10 ml-10 bg-indigo-800 text-white  h-16 w-30 p-2 rounded-md"
+          className="self-center hover:bg-indigo-100 hover:text-indigo-800 hover:font-bold hover:border-2 hover:border-indigo-800 hover:border-opacity-100 hover:border-solid mr-10 ml-10 bg-indigo-800 text-white  h-16 w-30 p-2 rounded-md"
           onClick={handleToggle}
         >
           {viewManifest ? "Hide" : "Show"} Manifest
