@@ -11,7 +11,7 @@ const roverDescriptions = {
   opportunity:
     'Opportunity, also known as MER-B (Mars Exploration Rover – B) or MER-1,\
       and nicknamed "Oppy" is a robotic rover that was active on Mars from 2004 \
-      until the middle of 2018.[2] Launched on July 7, 2003, as part of NASA\'s \
+      until the middle of 2018. Launched on July 7, 2003, as part of NASA\'s \
       Mars Exploration Rover program, it landed in Meridiani Planum on January 25,\
      2004, three weeks after its twin Spirit (MER-A) touched down on the other side\
      of the planet.',
@@ -26,7 +26,7 @@ const RoverCard = ({ name }) => {
       <a>
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
           <img
-            className="h-64 w-64 mx-auto mt-6"
+            className="h-64 w-64 mx-auto mt-6 rounded-md"
             src={`/images/${name}.jpg`}
             alt={`${name} rover`}
           ></img>
