@@ -53,6 +53,10 @@ Here is a sample response from the manifest request
 }
 ```
 
+### API KEY
+
+The api key is in the `<rootDirectory>/.env` file and can be accessed by `process.env.NEXT_PUBLIC_NASA_API_KEY`
+
 ## Running the project
 
 1. Clone or Fork the repository
