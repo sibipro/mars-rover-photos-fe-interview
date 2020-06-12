@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`manifest component is rendered 1`] = `
+<div>
+  <h3>
+    Manifest
+  </h3>
+</div>
+`;
